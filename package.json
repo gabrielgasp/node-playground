@@ -1,0 +1,52 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/diff": "^5.0.2",
+    "@types/hash-sum": "^1.0.0",
+    "@types/json-diff": "^0.7.0",
+    "@types/object-hash": "^2.2.1",
+    "argon2": "^0.29.1",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "class-validator": "^0.13.2",
+    "deep-object-diff": "^1.1.7",
+    "diff": "^5.0.0",
+    "express": "^4.18.1",
+    "flat": "^5.0.2",
+    "geolib": "^3.3.3",
+    "hash-sum": "^2.0.0",
+    "jest": "^27.5.1",
+    "joi": "^17.6.0",
+    "json-diff": "^0.7.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "mongodb-memory-server": "^8.5.1",
+    "mongoose": "^6.5.4",
+    "object-hash": "^3.0.0",
+    "redis": "^4.3.0",
+    "sharp": "^0.30.4",
+    "uuid": "^9.0.0",
+    "zod": "^3.17.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/flat": "^5.0.2",
+    "@types/lodash": "^4.14.186",
+    "@types/moment": "^2.13.0",
+    "@types/moment-timezone": "^0.5.12",
+    "@types/node": "^18.0.3",
+    "@types/sharp": "^0.30.2",
+    "@types/uuid": "^8.3.4"
+  }
+}
