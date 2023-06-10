@@ -1,2 +1,6 @@
-const arr = [1, 2, 3]
-console.log(arr.slice(0, 5));
+, {
+      memoryCost: 2 ** 16,
+      hashLength: 32,
+      timeCost: 3,
+      parallelism: 4,
+    }
