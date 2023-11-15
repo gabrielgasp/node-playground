@@ -13,11 +13,11 @@ async function hashPassword() {
     hashes.push(hash);
   }
 
-  for (const hash of hashes) {
-    console.time("verify");
-    await argon2.verify(hash, plainPassword);
-    console.timeEnd("verify");
-  }
+  // for (const hash of hashes) {
+  //   console.time("verify");
+  //   await argon2.verify(hash, plainPassword);
+  //   console.timeEnd("verify");
+  // }
 }
 
 void hashPassword();
